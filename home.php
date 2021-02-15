@@ -1,4 +1,7 @@
 <?php
+
+include'check.php'
+
 include'connect.php';
      $s="select*from reg where id='$_SESSION[id]'";
     $qu= mysqli_query($con, $s);

@@ -1,5 +1,7 @@
 <?php
 include 'connect.php';
+include 'check.php'
+
 ?>
 <table border='1'>
     <tr>
