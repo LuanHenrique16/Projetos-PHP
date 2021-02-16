@@ -44,7 +44,7 @@ if(isset($_POST['sub'])){
                 </tr>
                 <tr>
                     <td>
-                        city
+                    city
                         <select name="city">
                         <?php
                             $sqlCity= mysqli_query($con, "select * from city");
