@@ -1,5 +1,4 @@
 <?php
-include 'check.php'
 include 'connect.php';
 if(isset($_POST['sub'])){
     $namecity=$_POST['name city'];
