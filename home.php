@@ -1,6 +1,6 @@
 <?php
 
-include'check.php'
+
 include'connect.php';
 
     $s="select*from reg where id='$_SESSION[id]'";

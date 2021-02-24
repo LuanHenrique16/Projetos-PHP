@@ -43,18 +43,20 @@ if(isset($_POST['sub'])){
                 </tr>
                 <tr>
                     <td>
-                    city
+                        city
                         <select name="city">
-                        <?php
-                            $sqlCity= mysqli_query($con, "select * from city");
-                            while($item = mysqli_fetch_assoc($slqCity))
-                            {
-                                $nomeItem = utf8_encode($item['nameCity']);
-                                echo "
-                                    <option value=$nomeItem>$nomeItem</option>
-                                    ";
-                            }
-                           ?>
+                            <option value="">-select-</option>
+                            <?php
+
+                              $sqlCity = mysqli_query($con, "select * from city");
+
+                              while($item = mysqli_fetch_assoc($sqlCity)){
+
+                                $nomeItem = $item['name_city'];
+                                echo "<option value=$nomeItem>$nomeItem</option>";
+                              }
+
+                            ?>
                     </td>
                 </tr>
                 <tr>
@@ -76,12 +78,13 @@ if(isset($_POST['sub'])){
                                
                     </td>
                 </tr>
+
                 <tr>
                     <td>
-                    <a href= "login.php"> Login</a>
-                               
+                        <a href="login.php"> Login</a>
                     </td>
                 </tr>
+
             </table>
     </body>
 </html>

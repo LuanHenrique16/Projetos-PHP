@@ -1,5 +1,5 @@
 <?php
-include 'check.php'
+
 include'connect.php';
 if(isset($_POST['sub'])){
     $t=$_POST['text'];
@@ -83,7 +83,7 @@ if(isset($_POST['sub'])){
                 <tr>
                     <td>
                         <input type="submit" value="submit" name="sub">
-                               
+                        <a href="home.php">Home</a>
                     </td>
                 </tr>
             </table>
