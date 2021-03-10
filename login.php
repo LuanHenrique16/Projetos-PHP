@@ -1,3 +1,4 @@
+
 <?php
 include'connect.php';
 if(isset($_POST['sub'])){
@@ -17,7 +18,7 @@ if(isset($_POST['sub'])){
 }
 ?>
 <html>
-      
+
     <head>
         <meta charset="UTF-8">
         <title></title>
