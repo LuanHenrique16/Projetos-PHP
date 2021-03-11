@@ -19,7 +19,7 @@ if(isset($_POST['sub'])){
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 <head>
-<title>Expertum - Free HTML Template by WowThemes.net</title>
+<title>HelpTech - Free HTML Template by WowThemes.net</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all'/>
@@ -49,19 +49,19 @@ if(isset($_POST['sub'])){
 			<span class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="index.html">
-			<img src="assets/img/logo-dark.png" alt="logo">
+			<img src="assets/img/logo-dark.jpg" alt="logo">
 			</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar">
 			<a class="mobile-menu-close"><i class="fa fa-close"></i></a>
 			<div class="menu-top-menu-container">
 				<ul id="menu-top-menu" class="nav navbar-nav nav-list">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#services">Services</a></li>
+					<li><a href="home.php">Home</a></li>
+					<li><a href="#about">Sobre</a></li>
+					<li><a href="#services">Servisos</a></li>
 					<li><a href="#pricing">Pricing</a></li>
 					<li><a href="#blog">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#contact">Contato</a></li>
 					<li style="background: rgba(255, 255, 0, 0.51);"><a target="_blank" href="https://www.wowthemes.net/themes/expertum/">WP Version</a></li>
 				</ul>
 			</div>
@@ -78,7 +78,7 @@ if(isset($_POST['sub'])){
 <section id="home" style="padding:160px 0;background-image: url(https://unsplash.it/1324/683?random=0); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
 	<div class="container">
 		<div class="textwidget">
-			<h1 class="toptitle">CHOOSE OUR EXPERTS for<br/> THE BEST PLAN YOU CAN GET <br/><br/><i class="fa fa-star roundicon"></i>
+			<h1 class="toptitle"> <font color = #02ff6d> GUIANDO NA<br/> TECNOLOGIA <br/><br/><i class="fa fa-star roundicon"></i>
 			</h1>								
 			<div class="contactstyle topform">										
 			<form method="POST" enctype="multipart/form-data">

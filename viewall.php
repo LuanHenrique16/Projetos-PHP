@@ -14,7 +14,7 @@ include 'check.php'
     </tr>
 
 <?php
-$sq="select * from reg";
+$sq="select * from reg.php";
 $qu=mysqli_query($con,$sq);
 while($f=  mysqli_fetch_assoc($qu)){
     ?>

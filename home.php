@@ -1,13 +1,16 @@
 <?php
+include 'connect.php';
 
 
-include'connect.php';
 
-    $s="select*from reg where id='$_SESSION[id]'";
+    $s="select * from reg where id='$_SESSION[id]'";
     $qu= mysqli_query($con, $s);
     $f=mysqli_fetch_assoc($qu);
+    
+
 
 ?>
+
 
 <html>
     <head>
@@ -24,7 +27,7 @@ include'connect.php';
             </td>
     </tr>
     <tr>
-    <td> Username</td>
+    <td> Username </td>
     
     <td>
             
@@ -54,5 +57,8 @@ echo $f['image'];?>" width="100px" height="100px">
 </table>
 <a href="edit.php">Edit</a>
 <a href="delete.php">Delete</a>
-    </body>
+<a href="logout.php">Logout</a>
+<a href="reg_city.php">Cadastro de cidades</a>
+<a href="viewall.php">View All Users</a>
+</body>
 </html>
